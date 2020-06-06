@@ -9,7 +9,11 @@ class ItemsController {
             return{
                 id: item.id,
                 title: item.title,
+<<<<<<< HEAD
                 image_url: `http://192.168.0.102:3333/uploads/${item.image}`
+=======
+                image_url: `http://localhost:3333/uploads/${item.image}`
+>>>>>>> a7d479694ed46f730f40d29cd32c9e4c70f4a306
             }
         });
     
